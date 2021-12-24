@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/calculator.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="headerContainer">
+        <address class="headerInfo phone-icon-nav-container">
+          <img class="topNavIcon" src="assets/img/phone.svg" alt="" />
+          <p class="call">
+            <a href="tel: +994 12 404 53 08">&nbsp +994 12 404 53 08 &nbsp</a> /
+            <a href="tel: +994 12 404 53 08 ">&nbsp +994 12 404 53 08 &nbsp </a>
+            / <a href="tel: +994 12 404 53 08 ">&nbsp +994 12 404 53 08</a>
+          </p>
+          <p class="mobile">
+            <a href="tel: +994 12 404 53 08 ">&nbsp +994 12 404 53 08</a> /
+            <a href="tel: +994 12 404 53 08 ">&nbsp +994 12 404 53 08</a>
+          </p>
+        </address>
+        <div class="headerInfo email-icon-nav-container">
+          <img class="topNavIcon" src="assets/img/email.svg" alt="" />
+          <a href="mailto:office@aitms.net"> office@aitms.net </a>
+        </div>
+        <div class="headerInfo location-icon-nav-container" id="headerLoc">
+          <img class="topNavIcon" src="assets/img/location.svg" alt="" />
+          <a href="https://goo.gl/maps/cfLLMwiRtW5sL83q7" target="_blank">
+            Ağ şəhər Y/M, 1-ci Yaşıl ada küçəsi, bina 7, mənzil 12</a
+          >
+        </div>
+      </div>
+      <hr
+        style="background-color: var(--main-black); padding-top: 1px"
+        height="1px"
+      />
+
+      <div class="navbarSection">
+        <div id="logo">
+          <a href="index.html"
+            ><img src="./new-assets/Avanqardups-black.svg" alt=""
+          /></a>
+        </div>
+
+        <nav class="noSelect">
+          <div class="hamburger">
+            <div class="lineWrapper">
+              <div class="line"></div>
+            </div>
+          </div>
+
+          <ul>
+            <li><a href="index.html">Ana səhifə</a></li>
+            <li><a href="products.html">Məhsullar</a></li>
+            <li class="serviceTopMenu">
+              <a
+                >Servis və xidmətlər
+                <img
+                  class="serviceArrowDown"
+                  src="assets/img/servisUpicon.svg"
+                  alt=""
+              /></a>
+            </li>
+
+            <li><a href="blog.html">Bloq</a></li>
+            <li><a href="aboutCompany.html">Şirkət Haqqında</a></li>
+
+            <li><a href="contact.html">Əlaqə</a></li>
+            <li id="searchIcon">
+              <img src="assets/img/search-black.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+
+        <div class="serviceMenu">
+          <h2>Servis ve xidmətlər</h2>
+          <ul>
+            <li><a href="service.html">Servis haqqında</a></li>
+            <li>
+              <a href="service.php#serviceContact">Texniki problem bildir</a>
+            </li>
+            <!-- <li><a href="calculator.html">Kalkulyator istifadə et</a></li> -->
+          </ul>
+        </div>
+
+        <ul class="mobile-ul">
+          <li><a href="index.html">Ana səhifə</a></li>
+          <li><a href="products.html">Məhsullar</a></li>
+          <li class="serviceTopMenu">
+            <a
+              >Servis və xidmətlər
+              <img
+                class="serviceArrowDown"
+                src="assets/img/servisUpicon.svg"
+                alt=""
+            /></a>
+          </li>
+          <ul class="mobileServiceUl">
+            <li><a href="service.html">Servis haqqında</a></li>
+            <li>
+              <a href="sevice.php#serviceContact">Texniki problem bildir</a>
+            </li>
+            <!-- <li><a href="calculator.html">Kalkulyator istifadə et</a></li> -->
+          </ul>
+
+          <!-- <li><a href="#">Xeberler</a></li> -->
+          <li><a href="aboutCompany.html">Şirkət Haqqında</a></li>
+          <li><a href="contact.html">Əlaqə</a></li>
+          <li id="searchIconMobile">
+            <img src="assets/img/search.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </header>
+    <hr style="background-color: var(--main-black)" />
+    <div class="modal-bg">
+      <div class="modal">
+        <div class="modal-wrapper">
+          <div class="modal-logo">
+            <img src="assets/img/avanqardups-logo-dark.svg" />
+          </div>
+          <div class="modal-close"></div>
+        </div>
+        <div class="modal-input-wrapper">
+          <textarea
+            placeholder="Axtaris Edin..."
+            class="modal-input"
+          ></textarea>
+          <input type="text" placeholder="Axtaris edin" class="modal-input" />
+        </div>
+      </div>
+    </div>
+
+    <section class="calculatorHeading">
+      <div class="calculatorPageLinks">
+        <a class="ppp" href="index.html">Ana Səhifə</a> /
+        <a class="ppp" href="calculator.html">Güc hesablama kalkulyatoru</a>
+      </div>
+
+      <div class="calculatorHeadingContent">
+        <h1>
+          Sizə lazım olan gücü ağaşıdakı cihazların <br />
+          sayını daxil edərək hesablayın
+        </h1>
+        <p>
+          Aşağıdakı cihazların saylarını daxil edin və kalkulyator sizə lazım
+          olan gücdə avadanlıqlarımızın səhifəsini təqdim edəcək. Və ya
+          aşağıdakı düyməyə klikləyin, mühəndislərimiz sizinlə əlaqə saxlasın.
+        </p>
+        <a id="calculatorBtn" href="">Yardım alın</a>
+      </div>
+    </section>
+
+    <section class="upsPageCalculator">
+      <div class="upsPageCalculatorHeading">
+        <h2>UPS gücü hesablama</h2>
+        <p>
+          Aşağıdakı cihazların sayını daxil edin və hesabla düyməsinə klikləyin,
+          hər bir cihaza lazım olan güc qeyd edilib
+        </p>
+      </div>
+      <div class="alert-box">
+        <span>Boş qalmış xanaları doldurun!</span>
+      </div>
+      <div class="upsCalculatorFormsImage">
+        <div class="calculatorForm1">
+          <label for="num1">Standart PC (200 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            id="num1"
+            placeholder="Sayı daxil edin"
+          /><br />
+          <label for="num2">Multimedia PC (250 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num2"
+          /><br />
+          <label for="num3">Terminal PC (150 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num3"
+          /><br />
+          <label for="num4">14" Monitor (75 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num4"
+          /><br />
+          <label for="num5">17" Monitor (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num5"
+          /><br />
+          <label for="num6">21" Monitor (150 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num6"
+          /><br />
+          <label for="num7">Server (500 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num7"
+          /><br />
+          <label for="num8">Internet Server (750 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num8"
+          /><br />
+          <label for="num9">Inkjet Yazıcı (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num9"
+          /><br />
+          <label for="num10">Dot-Matrix Yazıcı (150 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num10"
+          /><br />
+        </div>
+        <div class="calculorForm2">
+          <label for="num11">Deskjet Yazıcı (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num11"
+          /><br />
+          <label for="num12">Lazer Yazıcı (500 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num12"
+          /><br />
+          <label for="num13"> Network Lazer Yazıcı (750 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num13"
+          /><br />
+          <label for="num14">Yazar Kasa (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num14"
+          /><br />
+          <label for="num15">Hub (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num15"
+          /><br />
+          <label for="num16">Router (200 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num16"
+          /><br />
+          <label for="num17">100 Hatlı PBX Santral (300 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num17"
+          /><br />
+          <label for="num18">Tarayıcı (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num18"
+          /><br />
+          <label for="num19">Fax (100 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num19"
+          /><br />
+          <label for="num20">Modem (50 VA)</label><br />
+          <input
+            type="number"
+            name="fname"
+            class="calcInputs"
+            placeholder="Sayı daxil edin"
+            id="num20"
+          /><br />
+        </div>
+        <div class="upsCalculatorPageImage">
+          <img src="assets/img/calculator-art.png" alt="" />
+        </div>
+      </div>
+      <div class="submitButton">
+        <button
+          name="calculateButton"
+          id="calcBtn"
+          style="cursor: pointer"
+          type="submit"
+        >
+          Hesabla
+        </button>
+      </div>
+    </section>
+
+    <!-- <section class="calculatorUp">
+      <div class="calculatorPageIpIcon">
+        <a href="#"><img src="assets/img/arrow-up.svg" alt="" /></a>
+      </div>
+    </section> -->
+
+    <section class="up">
+      <div class="upIcon">
+        <a href="#"><img src="./assets/img/arrow-up.svg" alt="" /></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerbg">
+        <h3>Sizin üçün xüsusi təkliflərimizdən yararlanmaq istərdinizmi?</h3>
+        <a href="contact.html">Təklif alın</a>
+      </div>
+      <div class="infoFooter">
+        <div class="contact">
+          <h2>Əlaqə</h2>
+          <ul>
+            <li class="footer-list-item contactInfo">
+              <img src="assets/img/phone.svg" alt="" />
+              <p>(+994 12) 404 53 08</p>
+            </li>
+            <li class="footer-list-item contactInfo">
+              <img src="assets/img/phone.svg" alt="" />
+              <p>(+994 50) 310 77 16</p>
+            </li>
+            <li class="footer-list-item contactInfo">
+              <img src="assets/img/phone.svg" alt="" />
+              <p>(+994 50) 427 26 16</p>
+            </li>
+            <li class="footer-list-item contactInfo">
+              <img src="assets/img/email.svg" alt="" />
+              <a href="mailto:office@aitms.net"> office@aitms.net </a>
+            </li>
+            <li class="footer-list-item contactInfo">
+              <img src="assets/img/location.svg" alt="" />
+              <a href="https://goo.gl/maps/cfLLMwiRtW5sL83q7" target="_blank">
+                Ağ şəhər Y/M, <br />
+                1-ci Yaşıl ada küçəsi, <br />
+                bina 7, mənzil 12</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu">
+          <h2>Menyu</h2>
+          <ul>
+            <li class="footer-list-item"><a href="#">Ana səhifə</a></li>
+            <li class="footer-list-item"><a href="#">Məhsullar</a></li>
+            <li class="footer-list-item">
+              <a href="#">Servis və xidmətlər</a>
+            </li>
+            <li class="footer-list-item"><a href="#">Xəbərlər</a></li>
+            <li class="footer-list-item"><a href="#">Şirkət Haqqında</a></li>
+            <li class="footer-list-item"><a href="#">Əlaqə</a></li>
+          </ul>
+        </div>
+
+        <div class="timing">
+          <h2>İş saatları</h2>
+          <ul>
+            <li class="footer-list-item"><p>Həftə içi: 09:00 - 18:00</p></li>
+            <li class="footer-list-item"><p>Şənbə: 10:00 - 14:00</p></li>
+            <li class="footer-list-item"><p>Bazar: Qeyri-iş günü</p></li>
+          </ul>
+        </div>
+
+        <div class="avadanliqlar">
+          <h2>Avadanlıqlarımız</h2>
+          <ul>
+            <li class="footer-list-item">
+              <p><a href="#">MA SERIES</a></p>
+            </li>
+            <li class="footer-list-item">
+              <p><a href="#">MM PORTABLE SERIES</a></p>
+            </li>
+            <li class="footer-list-item">
+              <p><a href="#">POWERACTIVE SERIES</a></p>
+            </li>
+            <li class="footer-list-item">
+              <p><a href="#">DEFENDER SERIES</a></p>
+            </li>
+            <li class="footer-list-item">
+              <p><a href="#">DEFENDER PRO SERIES</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copywriter">
+        <p>© 2021 Avanqard Ups MMC. Bütün hüquqları qorunur</p>
+        <p>Website by<a href="#">Claradix Studio</a></p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script src="/js//calculator.js"></script>
+    <script src="/js/pages.js"></script>
+    <script src="./gsapJs/calculator-gsap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+header {
+  background: #fafafa;
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+#headerContainer {
+  background-color: #eceef2;
+}
+
+nav ul li a {
+  color: var(--mainblack);
+}
+
+.blogPageLinks {
+  margin: 0 10%;
+  color: color(--mainblack);
+  padding: 2rem 0;
+}
+
+.blogPageLinks a {
+  /* font-family: "Open Sans", sans-serif; */
+  color: var(--main-black);
+}
+
+.blogDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.blogPageHeading h1 {
+  color: var(--main-black);
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 34px;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.blogDetails {
+  margin-left: 10%;
+  margin-right: 20%;
+  border-bottom: 1px solid var(--mainblack);
+  margin-bottom: 4rem;
+}
+
+.blogDetails h2 {
+  color: var(--main-black);
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.blogDetails p {
+  color: #444444;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 16px;
+  letter-spacing: 0.7px;
+}
+
+.blogBtn {
+  /* font-family: "Open Sans", sans-serif; */
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--mainblack);
+  transition: all 0.2s;
+}
+
+.blogBtn:hover {
+  transform: translateX(7px) scale(1.1);
+}
+
+.blogBtn img {
+  width: 12%;
+  margin-left: 5px;
+}
+
+.blogImage img {
+  width: 70%;
+}
+
+.blogImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width: 800px;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.blogBtnAndTime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.blogPage {
+  margin-bottom: 6rem;
+}
+
+.blogTime {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #444444;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.blogContactPageButton a {
+  display: inline-block;
+  padding: 0.7rem;
+  text-align: center;
+  background-color: var(--mainblack);
+  border-radius: 3px;
+  -webkit-box-shadow: 0.5px 0.5px gray;
+  box-shadow: 0.5px 0.5px gray;
+  width: 140px;
+  color: #fff;
+  font-size: 13px;
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 1px;
+  background-color: var(--main-black);
+  transition: all 0.2s;
+}
+
+.blogContactPageButton a:hover {
+  transform: scale(1.1);
+}
+
+.blogContactPageButton {
+  margin-top: 15rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.blogPageIpIcon {
+  background-color: var(--mainblack);
+  border-radius: 6px;
+  border: 1px solid var(--mainblack);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.blogUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.blogPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+.footerbg {
+  align-items: center;
+}
+.footerbg p {
+  color: #fafafa;
+}
+
+@media screen and (max-width: 940px) {
+  .blogPage h1 {
+    font-size: 29px;
+  }
+  .blogImage img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .blogPage h1 {
+    font-size: 24px;
+  }
+  .blogImage img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blogDetails {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .blogImage {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .blogImage {
+    width: 250px;
+    margin-left: -2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--mainblack);
+  }
+  .open {
+    background-color: var(--mainblack);
+  }
+}
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,353 @@
+header {
+  background: #fafafa;
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+#headerContainer {
+  background-color: #eceef2;
+}
+
+nav ul li a {
+  color: var(--main-black);
+}
+
+.calculatorPageLinks {
+  margin: 2rem 0;
+  color: var(--main-black);
+}
+
+.calculatorPageLinks a {
+  /* font-family: "Open Sans"; */
+  color: var(--main-black);
+}
+
+.calculatorHeading {
+  margin-left: 6rem;
+  background-color: #fafafa;
+  margin-bottom: 6rem;
+}
+
+.calculatorHeadingContent h1 {
+  color: var(--main-black);
+  font-size: 30px;
+  /* font-family: "Montserrat"; */
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.calculatorHeadingContent p {
+  color: var(--main-black);
+  /* font-family: "Open Sans"; */
+  line-height: 23px;
+  width: 35%;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#calculatorBtn {
+  display: inline-block;
+  border: 1px solid var(--main-black);
+  padding: 0.7rem;
+  text-align: center;
+  background-color: var(--main-black);
+  border-radius: 5px;
+  color: #fafafa;
+  width: 100px;
+  font-size: 14px;
+  /* font-family: "Open Sans"; */
+}
+
+.upsCalculatorFormsImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.upsPageCalculator {
+  margin-left: 5rem;
+}
+
+.upsPageCalculatorHeading h2 {
+  font-size: 20px;
+  /* font-family: "Montserrat"; */
+  font-weight: bold;
+  color: var(--main-black);
+}
+
+.upsPageCalculatorHeading p {
+  color: #444444;
+  /* font-family: "Open Sans"; */
+  line-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.alert-box {
+  width: 220px;
+  padding: 20px;
+  background-color: rgb(204, 51, 0);
+  /* background-color: var(--main-black); */
+  box-shadow: 0px 0px 10px rgb(204, 51, 0);
+  border-radius: 20px 20px 20px 0px;
+  color: rgb(255, 206, 181);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  justify-content: center;
+  position: relative;
+  left: 530px;
+  bottom: 150px;
+  transition: all 400ms ease;
+  transition-delay: 0.5s;
+}
+.alert-box.active {
+  bottom: 130px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.calculatorForm1 input {
+  width: 250px;
+  background-color: #fafafa;
+  padding: 0.5rem 0.2rem;
+  height: 18px;
+  border: 1px solid #707070;
+  color: #9a9a9a;
+  margin-bottom: 0.8rem;
+  font-size: 10px;
+  border-radius: 2px;
+}
+
+.calculatorForm1 label {
+  color: #444444;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.calculorForm2 {
+  margin-right: 6rem;
+}
+
+.calculorForm2 input {
+  width: 250px;
+  background-color: #fafafa;
+  height: 18px;
+  border: 1px solid #707070;
+  padding: 0.5rem 0.2rem;
+  color: #9a9a9a;
+  margin-bottom: 0.8rem;
+  font-size: 12px;
+  border-radius: 2px;
+}
+input.alert-message::placeholder {
+  font-style: italic;
+  color: rgb(204, 51, 0);
+}
+
+.calculorForm2 label {
+  color: #444444;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.upsCalculatorPageImage {
+  text-align: left;
+  width: 20%;
+}
+
+.upsCalculatorPageImage img {
+  width: 92%;
+  position: relative;
+  bottom: 30%;
+  left: 8%;
+}
+
+.submitButton button {
+  display: block;
+  padding: 0.7rem;
+  text-align: center;
+  background-color: var(--main-black);
+  border: none;
+  border-radius: 2px;
+  color: #fafafa;
+  /* width: 53%; */
+  font-size: 14px;
+  /* font-family: "Open Sans"; */
+  opacity: 1;
+  margin-bottom: 3rem;
+}
+
+.calculatorPageIpIcon {
+  background-color: var(--main-black);
+  border-radius: 6px;
+  border: 1px solid var(--main-black);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.calculatorUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.calculatorPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 920px) {
+  .alert-box {
+    display: none;
+  }
+  .calculatorHeadingContent h1 {
+    font-size: 26px;
+  }
+  .calculatorHeadingContent p {
+    width: 50%;
+  }
+
+  .calculatorForm1 input {
+    width: 200px;
+  }
+
+  .calculorForm2 input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .calculorForm2 input {
+    margin-left: 30px;
+  }
+
+  .calculorForm2 label {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculatorHeadingContent h1 {
+    font-size: 23px;
+  }
+  .calculatorHeadingContent p {
+    width: 62%;
+  }
+  .line {
+    background-color: var(--main-black);
+  }
+  .upsCalculatorFormsImage img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .calculatorHeadingContent h1 {
+    font-size: 18px;
+  }
+  .calculatorHeadingContent p {
+    width: 72%;
+  }
+  .calculatorHeading {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .calculatorHeadingContent h1 {
+    font-size: 15px;
+  }
+  .calculatorHeadingContent p {
+    width: 80%;
+  }
+  .calculatorHeading {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .upsPageCalculatorHeading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upsPageCalculator {
+    margin-left: 0rem;
+  }
+  .upsCalculatorFormsImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .calculorForm2 {
+    margin-right: 2rem;
+  }
+  .calculorForm2 input {
+    width: 420px;
+  }
+
+  .calculatorForm1 input {
+    width: 420px;
+  }
+
+  .upsPageCalculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .upsPageCalculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .calculorForm2 input {
+    width: 320px;
+  }
+
+  .calculatorForm1 input {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .calculorForm2 input {
+    width: 220px;
+  }
+
+  .calculatorForm1 input {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 340px) {
+}
+
+/*# sourceMappingURL=calculator.css.map */

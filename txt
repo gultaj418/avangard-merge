@@ -1,0 +1,63 @@
+
+<div class="navbarSection">
+            
+                <div id="logo">
+                    <a href="index.html"><img src="./new-assets/Avanqardups-white.svg" alt=""></a>
+                </div>
+
+                <nav class="noSelect">
+                    <div class="hamburger">
+                        <div class="lineWrapper">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <li><a href="index.html">Ana səhifə</a></li>
+                        <li><a href="products.html">Məhsullar</a></li>
+                        <li class="serviceTopMenu"><a>Servis və xidmətlər <img class="serviceArrowDown" src="assets/img/servisUpicon.svg" alt=""></a>
+                            
+
+                        </li>
+
+                        <li><a href="blog.html">Bloq</a></li>
+                        <li><a href="aboutCompany.html">Şirkət Haqqında</a></li>
+                     
+                        <li><a href="contact.html">Əlaqə</a></li>
+                        <li id="searchIcon">
+                                <img src="assets/img/search.svg"alt="">
+                        </li> 
+                    </ul>
+                </nav>
+                
+
+                <div class="serviceMenu">
+                    <h2>Servis və xidmətlər</h2>
+                    <ul>
+                        <li><a href="service.html">Servis haqqında</a></li>
+                        <li><a href="service.php#serviceContact">Texniki problem bildir</a></li> 
+                        <!-- <li><a href="calculator.html">Kalkulyator istifadə et</a></li> -->
+                    </ul>
+                </div>
+
+                <ul class='mobile-ul'>
+                    <li><a href="index.html">Ana səhifə</a></li>
+                    <li><a href="products.html">Məhsullar</a></li>
+                    <li class="serviceTopMenu"><a>Servis və xidmətlər <img class="serviceArrowDown" src="assets/img/servisUpicon.svg" alt=""></a></li>
+                        <ul class="mobileServiceUl">
+                            <li><a href="service.html">Servis haqqında</a></li>
+                            <li><a href="sevice.php#serviceContact">Texniki problem bildir</a></li>
+                            <!-- <li><a href="calculator.html">Kalkulyator istifadə et</a></li> -->
+                        </ul>
+        
+                    <!-- <li><a href="#">Xeberler</a></li> -->
+                    <li><a href="aboutCompany.html">Şirkət Haqqında</a></li>
+                    <li><a href="contact.html">Əlaqə</a></li>
+                    <li id="searchIconMobile">
+                            <img src="assets/img/search.svg"alt="">
+                    </li> 
+                    
+                </ul>
+            
+    
+        </div>
